@@ -71,6 +71,9 @@ header{
     position: sticky;
     top: 0;
 }
+.main-header-top-menu span{
+    display: none;
+}
 .main-header-top-menu ul{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
