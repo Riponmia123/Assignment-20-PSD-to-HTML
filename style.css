@@ -1,0 +1,651 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: rgb(76, 211, 35);
+}
+/* header class start */
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background-color: rgb(2, 1, 1);
+}
+.header-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8px 0;
+}
+
+.header-top-left span a{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 85, 85);
+    padding: 0 7px;
+}
+
+.header-top-right{
+    justify-self: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+.header-top-contact1{
+    padding:  0 8px;
+}
+.header-top-contact1 span{
+    color: white;
+}
+.header-top-contact1 i{
+    color: rgb(76, 211, 35);
+}
+.header-top-btn{
+    justify-self: right;
+    color: white;
+}
+.header-top-btn a{
+    padding: 5px 10px;
+    background-color: rgb(76, 211, 35);
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+
+/* header class end */
+
+/* main header class start */
+.main-header{
+    padding: 10px 0;
+}
+.main-header-top{
+    display: grid;
+    grid-template-columns: 0.4fr 2fr;
+    align-items: center;
+}
+.main-header-top-logo img{
+    width: 100px;
+}
+.main-header-top-menu{
+    position: sticky;
+    top: 0;
+}
+.main-header-top-menu ul{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    justify-self: right;
+    margin: 0;
+    list-style-type: none;
+}
+.main-header-top-menu ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.main-header-top-menu ul li a:hover{
+    border-bottom: 3px solid yellow;
+    font-weight: bold;
+    transition: all ease 0.5s ;
+}
+/* main header class end */
+
+/* hero section start */
+.hero{
+    background-color: rgb(21, 163, 206);
+    overflow: hidden;
+}
+.hero-content{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+}
+.hero-content h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.hero-content p{
+    font-size: 20px;
+}
+.hero-btn{
+    padding: 30px 0;
+}
+.hero-btn a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    background-color: rgb(122, 122, 14);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+/* hero section end */
+
+/* advantages class start */
+.advantages{
+    padding: 30px 0;
+    background-color: rgb(204, 207, 207);
+}
+.advantages-top-content{
+    text-align: center;
+}
+.advantages-top-content h1{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.advantages-top-content p{
+    color:rgb(87, 85, 85);
+    font-family: sans-serif;
+}
+.advantages-bottom-content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-self: center;
+    padding-top: 50px;
+}
+.advantages-font-aweswome {
+    text-align: center;
+}
+.advantages-font-aweswome i{
+    font-size: 50px;
+    padding: 20px;
+    background-color: rgb(224, 209, 209);
+    border-radius: 50%;
+}
+/* advantages class end */
+
+/* about class start */
+.about{
+    padding: 30px 0;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+}
+.about-top-content h1{
+    font-size: 35px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.about-btn span a{
+    background-color: rgb(201, 201, 10);
+}
+.about-content-right{
+    justify-self: right;
+}
+.about-content-right img{
+    width: 450px ;
+}
+/* about class end */
+
+/* services class start */
+.services{
+    padding: 30px 0;
+    background-color: rgb(204, 207, 207)
+}
+.services-top{
+    text-align: center;
+}
+.services-top h1{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 50px;
+}
+.first{
+    justify-self: left;
+}
+.last{
+    justify-self: right;
+}
+.services-font-awesome{
+    text-align: center;
+}
+.services-font-awesome i{
+    font-size: 40px;
+    color: rgb(163, 65, 0);
+    padding: 20px;
+    background-color: rgb(201, 201, 10);
+    border-radius: 50%;
+}
+.services-font-awesome h4{
+    margin-bottom: 0;
+}
+.services-btn{
+    padding-top: 20px;
+}
+.services-btn a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    background-color: rgb(201, 201, 10);
+}
+/* services class end */
+
+/* portfolio class start */
+.portfolio{
+    padding: 30px 0;
+    background-color: rgb(2, 1, 1);
+}
+
+.portfolio-top-content{
+    text-align: center;
+}
+.portfolio-top-content h1{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 0;
+}
+.portfolio-top-content p{
+    color: grey;
+}
+.portfolio-menu{
+    display: grid;
+    grid-template-columns: 0.3fr 4fr 0.3fr;
+}
+.portfolio-main-menu{
+    justify-self: center;
+}
+.portfolio-main-menu ul{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    list-style-type: none;
+}
+.portfolio-main-menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all ease 0.5s;
+}
+.portfolio-main-menu ul li a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+.portfolio-gellary{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px 0;
+}
+.portfolio-images img{
+    width: 240px;
+    height: 200px;
+}
+.gellary2{
+    padding: 0;
+    margin-top: -30px;
+}
+/* portfolio class end */
+
+/* process class start */
+.process{
+    padding: 50px 0;
+}
+.process-text{
+    text-align: center;
+}
+.process-text h1{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.process-text p{
+    font-family: sans-serif;
+    margin-top: 0;
+}
+.process-font-awesome{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-top: 30px;
+}
+.procest-start{
+    text-align: center;
+}
+.procest-start i{
+    font-size: 30px;
+    padding: 25px;
+    border: 1px solid rgb(155, 154, 154);
+    border-radius: 50%;
+}
+.procest-start h4{
+    margin-bottom: 0;
+}
+/* process class end */
+
+/* people class start */
+.people{
+    padding: 30px 0;
+    background-color: rgb(201, 212, 212);
+}
+
+.people-top-content{
+    text-align: center;
+}
+.people-top-content h1{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.people-top-content p{
+    margin-top: 0;
+    font-family: sans-serif;
+}
+.people-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.people-about{
+    display: grid;
+    grid-template-columns: 0.2fr 3fr;
+    justify-self: center;
+    grid-gap: 20px;
+    padding-top: 20px;
+}
+.people-man i{
+    font-size: 40px;
+    color: black;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 50%;
+}
+.people-text h5{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.people-text p{
+    margin-top: 0;
+}
+/* people class end */
+
+/* skills class start */
+.skills{
+    padding: 30px 0;
+}
+.skills-top-conntent {
+    text-align: center;
+}
+.skills-top-conntent h1{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.skills-top-conntent p{
+    margin-top: 0;
+    font-family: sans-serif;
+}
+.skills-percentage{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.skills-start span{
+    font-family: bold;
+    font-size: 30px;
+    padding: 20px;
+    border: 5px solid rgb(202, 183, 9);
+    border-radius: 50%;
+    color:  rgb(202, 183, 9);
+}
+.skills-percentage .box1 span{
+    color: red;
+    border: 5px solid red;
+}
+.skills-percentage .box2 span{
+    color: rgb(76, 211, 35);
+    border: 5px solid rgb(76, 211, 35);
+}
+.skills-percentage .box3 span{
+    color: black;
+    border: 5px solid black;
+}
+.skills-start h5{
+    padding-top: 20px;
+}
+/* skills class end */
+/* project class start */
+.project{
+    background-color: rgb(21, 163, 206);
+    padding: 30px 0;
+}
+.project-top{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.project-from{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+}
+.from input{
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+.from a{
+    padding: 10px 15px;
+    background-color: rgb(202, 183, 9);
+    text-decoration: none;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.project p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+/* project class end */
+/* contacts class start */
+
+
+.contacts-top-content{
+    text-align: center;
+}
+.contacts-top-content h1{
+    margin-bottom: 0;
+    font-size: 35px;
+}
+.contacts-top-content p{
+    margin-top: 0;
+    font-family: sans-serif;
+    color: rgb(80, 80, 80);
+}
+.contacts-location{
+    padding-top: 20px;
+}
+.contacts-phone{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.phone1 h3{
+    margin-top: 0;
+}
+.phone1 span{
+    padding: 0 10px;
+}
+.location-images img{
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+/* contacts class end */
+
+/* footer class start */
+footer{
+    padding-top: 50px;
+    background-color: rgb(21, 163, 206);
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-logo img{
+    width: 120px;
+}
+.footer-logo{
+    color: white;
+    font-family: sans-serif;
+}
+.footer-logo p{
+    margin-bottom: 0;
+}
+.footer-services{
+    justify-self: center;
+}
+.footer-services a{
+    text-decoration: none;
+    color: white;
+}
+.footer-contacts p{
+    color: white;
+}
+.footer-contacts span{
+    color: white;
+    padding: 0 10px;
+}
+/* footer class end */
+
+
+/* responsive design start */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 0px) and (max-width: 480px) {
+    
+    header{
+        display: none;
+    }
+    .main-header-top{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main-header-top-menu ul {
+        display: none;
+    }
+    .main-header-top-menu span{
+        display: block;
+        color: black;
+        text-align: right;
+        cursor: pointer;
+    }
+    .main-header-top-menu:hover ul{
+        display: block;
+    }  
+    .advantages-bottom-content{
+        display: flex;
+        flex-flow: column;
+    }  
+    .about-content{
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }
+    .services-content{
+        display: flex;
+        flex-flow: column;
+    }
+    .services-font-awesome {
+        padding-top: 15px;
+    }
+    .portfolio-main-menu ul{
+        display: none;
+    }
+    .portfolio-gellary{
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }
+    .process-font-awesome{
+        display: flex;
+        flex-flow: column;
+    }
+    .people-bottom{
+        display: flex;
+        flex-flow: column;
+    }
+    .skills-percentage{
+        display: flex;
+        flex-flow: column;
+    }
+    .project-from{
+        display: flex;
+        flex-flow: column;
+    }
+    .from{
+        padding: 2px 0;
+    }
+    .from1{
+        padding: 15px 0;
+    }
+    .contacts-phone{
+        display: flex;
+        flex-flow: column;
+    }
+    .footer-top{
+        display: flex;
+        flex-flow: column;
+    }
+  }
+/* responsive design end */
