@@ -58,6 +58,9 @@ header{
 /* main header class start */
 .main-header{
     padding: 10px 0;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 .main-header-top{
     display: grid;
@@ -88,7 +91,6 @@ header{
 }
 .main-header-top-menu ul li a:hover{
     border-bottom: 3px solid yellow;
-    font-weight: bold;
     transition: all ease 0.5s ;
 }
 /* main header class end */
@@ -148,6 +150,7 @@ header{
 }
 .advantages-font-aweswome {
     text-align: center;
+    grid-gap: 20px;
 }
 .advantages-font-aweswome i{
     font-size: 50px;
@@ -268,7 +271,7 @@ header{
 }
 .portfolio-main-menu ul li a:hover{
     color: yellow;
-    font-weight: bold;
+    border-bottom: 2px solid gray;
 }
 .portfolio-gellary{
     display: grid;
@@ -302,7 +305,7 @@ header{
 }
 .process-font-awesome{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     padding-top: 30px;
 }
 .procest-start{
@@ -604,6 +607,9 @@ footer{
         display: flex;
         flex-flow: column;
         text-align: center;
+    }
+    .about-content-right img{
+        width: 100%;
     }
     .services-content{
         display: flex;
